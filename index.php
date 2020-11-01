@@ -1,3 +1,10 @@
+<?php
+	require 'connection.php';
+	session_start();
+	if(isset($_SESSION['user_id']) && isset($_SESSION['role'])){
+		header("location: dashboard.php");	
+	}
+?>
 <html>
 <head>
 	<meta content="text/html;charset=utf-8" http-equiv="Content-Type">
