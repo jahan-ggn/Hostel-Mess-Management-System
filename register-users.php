@@ -54,6 +54,12 @@
 			<input type="text" name="txtLName" id="txtLName" placeholder="Last Name" autocomplete="off"><br>
 			<input type="email" name="txtREmail" id="txtREmail" placeholder="Email id" autocomplete="off"><br>
 			<input type="password" name="txtRPassword" id="txtRPassword" placeholder="Password" value="changeme" autocomplete="off"><br>
+			<select id="role" name="role">
+				<option disabled="true" selected="true"> User Role </option>
+				<option> Student </option>
+    			<option> Admin </option>
+    			<option> Cook </option>
+	    	</select>
 			<br>
 			<button type="submit" name="btnAddUser" id="btnAddUser"> Add User </button>
 		</form>
