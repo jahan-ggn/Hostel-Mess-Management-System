@@ -67,7 +67,10 @@
 			$result = mysqli_query($con, $sql);
 			$row = mysqli_num_rows($result);
 			if($row > 0){
-				
+				if(!preg_match("/^[!@#$%*a-zA-Z0-9]{8,}$/", $newpassword)){
+					echo '<script>alert("A password must contain 8 or more characters that are of at least one number, and one uppercase and lowercase letter and one special symbol from @, *, !, #, $, %")</script>';
+					return;
+				}
 				if($newpassword === $confirmpassword ){
 					$newpassword = sha1($newpassword);
 					$sql = "update users_master set password='$newpassword' where user_id = $user_id";
