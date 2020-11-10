@@ -1,0 +1,102 @@
+body{
+  background: #567;
+  font-family: 'Open Sans',sans-serif;
+}
+
+#login{
+  width: 400px;
+  margin-top: 10%;
+  margin-left: 35%;
+}
+
+form{
+  background: #f0f0f0;
+  padding: 1% 9%;
+}
+
+#txtEmail, #txtPassword{
+  width: 100%;
+  background: #fff;
+  margin-bottom: 4%;
+  border: 1px solid #ccc;
+  padding: 4%;
+  font-family: 'Open Sans',sans-serif;
+  font-size: 95%;
+  color: #555;
+}
+
+#txtREmail, #txtRPassword, #txtFName, #txtLName, #txtVEmail, #txtOldPassword, #txtConfirmPassword, #txtNewPassword, #role, #txtReason, #date, #bPrice, #dPrice, #users{
+  width: 40%;
+  background: #fff;
+  margin-bottom: 2%;
+  border: 1px solid #ccc;
+  padding: 2%;
+  font-family: 'Open Sans',sans-serif;
+  font-size: 95%;
+  color: #555;
+}
+
+#btnSubmit{
+  width: 100%;
+  background: #3399cc;
+  padding: 4%;
+  font-family: 'Open Sans',sans-serif;
+  font-size: 100%;
+  color: #fff;
+  margin-bottom: 5%;
+  cursor: pointer;
+}
+
+#btnAddUser, #btnViewMeal, #btnMeal{
+  width: 30%;
+  background: #3399cc;
+  padding: 2%;
+  font-family: 'Open Sans',sans-serif;
+  font-size: 100%;
+  color: #fff;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+#btnAddMeal, #btnChangePassword, #btnChangePrice{
+  width: 30%;
+  background: #3399cc;
+  padding: 2%;
+  font-family: 'Open Sans',sans-serif;
+  font-size: 100%;
+  color: #fff;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.sidenav {
+  height: 100%;
+  width: 200px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #b8c7ce;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.main {
+  margin-left: 200px;
+  font-size: 20px;
+  padding: 0px 10px;
+}
+
+
