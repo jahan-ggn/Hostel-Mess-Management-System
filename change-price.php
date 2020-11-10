@@ -57,8 +57,15 @@
 	</div>
 	<?php
 		if(isset($_POST['btnChangePrice'])){
-			
+            if(empty($_POST['bPrice'])){
+				echo '<script>alert("Please enter breakfast price")</script>';
+				return;
+			}
 			$breakfast_price = $_POST['bPrice'];
+			if(empty($_POST['dPrice'])){
+				echo '<script>alert("Please enter dinner price")</script>';
+				return;
+			}
 			$dinner_price = $_POST['dPrice'];
 			$sql = "select * from price_master";
 			$result = mysqli_query($con, $sql);
