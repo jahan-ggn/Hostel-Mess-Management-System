@@ -1,0 +1,1 @@
+The goal of the website was to automate the redundant work of the secretary(which was my friend) to maintain records of the users when they don't eat their meals and thus deduct the cost. The website allowed the users and the secretory to enter when they won't consume food their which in turn was informed to the cook. The deduction was calculated automatically.
